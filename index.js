@@ -10,3 +10,9 @@ app.engine('handlebars', engine({
         allowProtoMethodsByDefault: true,
     }
 }))
+app.set('view engine', 'handlebars');
+
+app.use('/',routesAdmin)
+
+app.listen(process.env.port||3000);
+console.log("Sevidor rodando");
