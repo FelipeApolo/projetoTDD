@@ -5,6 +5,9 @@ router.get('/',function(req,res){
     res.render('index');
 })
 router.get('/about',function(req,res){
-    res.sendFile(path.join(__dirname+'/../about.html'));
+    res.sendFile(path.join(__dirname+'/../servicos.html'));
+})
+router.get('/about',function(req,res){
+    res.sendFile(path.join(__dirname+'/../produtos.html'));
 })
 module.exports = router;

@@ -1,3 +1,3 @@
 Curso Tecnico de Desenvolvimento de Sistemas
-Projeto para a criação de testes.
+Atuvidade Pratica 2
 Desenvolverdor Luiz Felipe Apolonio 
